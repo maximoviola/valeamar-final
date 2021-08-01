@@ -1,0 +1,69 @@
+.pantalla-dividida{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: flex-start;
+    padding-top: 7px;
+    height: 90%;
+    width: 100%;
+    .imagen-back{			
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        margin-top: 75px;
+        padding-top: 2px;
+        .imagen__delicias{
+            width: 100%;
+            display: flex;
+            max-width: 500px;
+            min-width: 220px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        .imagen__delicias:hover{
+            transform: rotate(0deg) scale(1.100) skew(1deg) translate(-12px);
+        }
+    }
+    
+    .nosotros__contenedor {   /* texto del index*/
+        width: 50%;
+        height: 100vh;			
+        padding-left: 35px;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        padding-top:26px ;
+        color: 	$colorPrincipal;
+        margin-bottom: 100px;
+        .nosotros__titulo {
+            font-family: lemon Milk, sans-serif;
+            font-weight: bold;
+            color: $colorPrincipal;
+            font-size: 40px;
+            padding-top: 100px;
+            padding-left: 60px;
+            }
+        .nosotros__parrafo {
+            font-size: 1.1rem !important;
+            font-family: Helvetica;
+            .boton{   /*boton de Productos*/
+                width: 140px;
+                height: 50px;
+                background-color: $colorPrincipal;
+                font-family: lemon milk;
+                font-size: 16px;
+                text-transform: lowercase;
+                font-weight: lighter;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                
+                box-shadow: 2px 2px 5px #999;
+                padding: 5px;
+                text-decoration: none;
+            
+            }
+        }
+    
+    }
+}

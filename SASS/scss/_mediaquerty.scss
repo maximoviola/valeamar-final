@@ -1,0 +1,157 @@
+
+@media screen and (max-width : 800px){
+
+	.pantalla-dividida{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		padding-top:30px;
+
+		
+
+	}
+	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: baseline;
+		justify-content: space-between;
+		background-color: $colorPrincipal!important;
+		
+	}
+
+	.imagen-back{
+		height: 80vh;
+		min-width: 160px;
+		margin-top:40px;
+		
+	}
+	h1{
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	#h1-index{
+		font-size: 1.2rem;
+		margin-top: 10px;
+	}
+	#h2-index{
+		font-size: 1rem;
+		
+
+	}
+	.text{
+		min-width:80%;
+		font-size: 1rem;
+		height: auto;
+		padding: 5px;
+		padding-top: 30px;
+		margin-bottom: 100px;
+	}
+	.imagen-lateral{
+		
+		min-width: 160px;
+
+	}
+	img{
+		margin-top: 15px;
+		width: 200px;
+
+	}
+	footer{
+		color: $colorPrincipal;
+		display: block !important;
+		position: absolute;
+		width: 100%;
+		padding-left: 10px;
+		padding-top: 28px;
+		margin-bottom: 8px;
+		text-align: center;
+		clear: both;
+		font-size: 12 px !important;
+		position: fixed;
+	}
+	
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+	}
+	.frase__renglon_2{
+		font-size:$fontFrase*1.7;
+		
+	}
+	
+	.frase__renglon_3{
+		font-size:$fontFrase*2.7;
+		
+	}
+	
+	.frase__renglon_4{
+		font-size:$fontFrase*1.9;
+		
+	}
+}
+@media screen and (max-width : 400px){
+
+	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+		display: flex;
+		align-items: baseline;
+		justify-content: center;
+		background-color: $colorPrincipal!important;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 200px;
+		justify-content:flex-end;
+	}
+	#h1-index {
+		font-family: lemon, sans-serif;
+		font-weight: bold;
+		color: $colorPrincipal;
+		font-size: 90%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.imagen-back {
+		height: 60vh;
+		background-size: cover;
+		background-position: center;
+		min-width: 150px;
+		margin-top: 5px;
+		padding-top: 2px;
+	}
+
+	.pantalla-dividida {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-items: center;
+		align-items: center;
+		padding-top: 55px;		
+		height: 90%;
+		width: 100%;
+	}
+
+	footer{
+			font-size: 10px !important;
+	}
+	.frase__renglon_1{
+		font-size:$fontFrase*2;
+		color: $colortext1;
+		}
+	
+	.frase__renglon_2{
+		font-size:$fontFrase*1.5;
+		
+	}
+	
+	.frase__renglon_3{
+		font-size:$fontFrase*2.5;
+		
+	}
+	
+	.frase__renglon_4{
+		font-size:$fontFrase*1.7;
+		
+	}
+}
